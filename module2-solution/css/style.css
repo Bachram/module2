@@ -1,0 +1,61 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+	text-align: center;
+	border: 1px solid black;
+	border-top: none;
+	border-right:none; 
+	margin-left:60%;
+	margin-top: 0px;
+	padding: 0;
+}
+
+article{
+	display: inline-block;		
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin: 0.5%;
+	width: 32%;
+	background-color: grey;
+	justify-content: space-around;
+}
+
+.dish1{
+/* float: left;*/
+ flex: 1;
+ 
+}
+
+.dish2{
+	flex: 1;
+
+	
+}
+.dish3{
+	flex: 1;
+
+	
+}
+p{
+	padding: 5px;
+}
+
+.dish1>h2 {
+	background-color: pink;
+}
+
+.dish2>h2 {
+	background-color: red;
+}
+
+.dish3>h2 {
+	background-color: gold;
+}
+
